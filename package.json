@@ -1,0 +1,27 @@
+{
+  "name": "secure-vault-system",
+  "version": "1.0.0",
+  "description": "Authorization-Governed Vault System for Controlled Asset Withdrawals",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "keywords": [
+    "blockchain",
+    "solidity",
+    "ethereum",
+    "vault",
+    "authorization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.9.0",
+    "ethers": "^6.0.0",
+    "hardhat": "^2.14.0"
+  },
+  "dependencies": {}
+}
